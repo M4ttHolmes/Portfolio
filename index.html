@@ -23,13 +23,20 @@
                         <h3 id="myTitle">Web Developer</h3>
                     </div>
                     <hr>
-                    <div id="navItems" class="hideMe">
-                        <nav class="nav flex-column">
-                            <a class="nav-link" onclick="loadHome()"><i class="fas fa-home"></i>Home / About</a>
-                            <a class="nav-link" onclick="loadSkills()"><i class="fas fa-toolbox"></i>Skills</a>
-                            <a class="nav-link" onclick="loadProjects()"><i class="fas fa-drafting-compass"></i>Projects</a>
-                            <a class="nav-link" onclick="loadContact()"><i class="fas fa-envelope"></i>Contact</a>
-                          </nav>
+                    <div id="navItems">
+                        <nav class="navbar-expand-sm navbar-dark">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                              <span class="navbar-toggler-icon"></span>
+                            </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="nav nav-bar-nav flex-column">
+                                <a class="nav-item" onclick="loadHome()"><i class="fas fa-home"></i>Home / About</a>
+                                <a class="nav-item" onclick="loadSkills()"><i class="fas fa-toolbox"></i>Skills</a>
+                                <a class="nav-item" onclick="loadProjects()"><i class="fas fa-drafting-compass"></i>Projects</a>
+                                <a class="nav-item" onclick="loadContact()"><i class="fas fa-envelope"></i>Contact</a>
+                            </div>
+                        </div>
+                        </nav>
                     </div>
                     <hr class="hideMe">
                     <div id="footer" class="hideMe">
@@ -77,7 +84,9 @@
 
         </div>
     </div>    
-
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="./scripts.js"></script>
 </body>
 </html>

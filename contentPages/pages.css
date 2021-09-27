@@ -1,20 +1,16 @@
 @media only screen and (max-width: 575px) {
-    #container {
-    height: 100%;
+    div h1 {
+        letter-spacing: 0 !important;
+        font-size: 1.5em !important;
     }
-    .hideMe {
-        display: none !important;
+
+    div h3, p {
+        letter-spacing: 0 !important;
+        font-size: .75em !important;
     }
-    .col-sm-3 {
-        height: 20%;
-    }
-    .col-sm-9 {
-        height: 80%;
-    }
-    #myName {
-        margin-top: 20px;
-    }
+    
 }
+
 
 a:active {
     transform: scale(95%);
