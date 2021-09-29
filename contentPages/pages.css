@@ -97,11 +97,45 @@ hr {
 }
 
 .dogs img {
-    width: 175px;
-    height: 180px;
-    border: 2px solid #1F3131;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+    height: 150px;
+}
+
+.dog-card {
     border-radius: 12%;
     margin-bottom: 20px;
+    border: 2px solid #1F3131;
+}
+
+.dog-card-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card-text {
+    text-align: left;
+    font-size: 14px;
+}
+
+.skill-card-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    height: 115px;
+}
+
+.card-right {
+    padding-left: 20px;
+}
+
+.card-left{ 
+    margin-left: 20px;
+}
+
+.skill-card {
+    margin-bottom: 10px;
 }
 
 .family {
@@ -114,4 +148,12 @@ hr {
     width: 250px;
     border: 2px solid #1F3131;
     border-radius: 12%;
+}
+
+.fab, .fas {
+    color: #1F3131;
+}
+
+.skill-card-body:hover .fab, .skill-card-body:hover .fas{
+    color: #DB9A55;
 }
