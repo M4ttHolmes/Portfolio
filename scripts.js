@@ -1,6 +1,4 @@
 let page = document.querySelectorAll("iframe")[0];
-console.log(page);
-
 
 function loadHome() {
   page.src = "./contentPages/home.html";
