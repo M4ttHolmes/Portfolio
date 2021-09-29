@@ -8,6 +8,10 @@
         letter-spacing: 0 !important;
         font-size: .75em !important;
     }
+
+    .contactButtons{
+        width: 90% !important;
+    }
     
 }
 
@@ -40,13 +44,30 @@ hr {
     width: 100%;
 }
 
-#imgHeader {
+
+.homeImage {
+    background: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80");
+}
+
+.skillsImage {
+    background: url("https://images.unsplash.com/photo-1504639725590-34d0984388bd?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1974&q=80");
+}
+
+.projectsImage {
+    background: url("https://images.unsplash.com/photo-1497032628192-86f99bcd76bc?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80");
+
+}
+
+.contactImage {
+    background: url("https://images.unsplash.com/photo-1519309621146-2a47d1f7103a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1173&q=80")
+}
+
+.imgHeader {
     margin-top: 10px;
     height: 30%;
     width: 100%;
     border: 1px solid #F6F2E2;
-    background: url("https://images.unsplash.com/photo-1483728642387-6c3bdd6c93e5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1476&q=80");
-    background-position: right 35% bottom 30%;;
+    background-position: right 35% bottom 30%;
     background-size: cover;
 }
 
@@ -82,6 +103,11 @@ hr {
     margin: auto;
     width: 80%;
     text-align: justify;
+}
+
+.contactMe {
+    font-size: 16px;
+    text-align: center;
 }
 
 #bodyContent:last-child{
@@ -145,6 +171,7 @@ hr {
 }
 
 .family img {
+    margin-top: 20px;
     width: 250px;
     border: 2px solid #1F3131;
     border-radius: 12%;
@@ -154,6 +181,38 @@ hr {
     color: #1F3131;
 }
 
-.skill-card-body:hover .fab, .skill-card-body:hover .fas{
+.skill-card-body:hover .fab, .skill-card-body:hover .fas, .fab:hover, .fas:hover{
     color: #DB9A55;
+}
+
+.contactButtons {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#contactForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form input {
+    margin: 10px;
+}
+
+form textarea {
+    margin: 20px;
+    width: 100%;
+    height: 200px;
+}
+
+form button {
+    width: 20%;
 }

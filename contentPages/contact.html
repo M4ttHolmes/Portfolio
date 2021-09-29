@@ -11,25 +11,39 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700;800&display=swap" rel="stylesheet">
     <link rel="icon" type="image" href="./assets/matt-icon.png">
     <script src="https://kit.fontawesome.com/dbc97ff852.js" crossorigin="anonymous"></script>
-    <title>Matt Holmes - Skills</title>
+    <title>Matt Holmes - Contact</title>
 </head>
 <body>
     <div class="body" id="skillsPage">
-        <div id="imgHeader">
+        <div class="imgHeader contactImage">
             <div class="overlay">
                 <div class="textWrapper">
-                    <h1 id="imageTitle">Contact Test</h1>
-                    <h3 id="imageSubTitle">This is a test page.</h3>
+                    <h1 id="imageTitle">Contact Me</h1>
+                    <h3 id="imageSubTitle">I'd love to collaborate on a project together.</h3>
 
                 </div>
             </div>
         </div>
         <hr>
-        <div id="bodyContent">Body Content
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tempus quam pellentesque nec nam aliquam sem et tortor. Purus viverra accumsan in nisl nisi. Risus sed vulputate odio ut enim. Sed elementum tempus egestas sed. Faucibus scelerisque eleifend donec pretium vulputate sapien. Faucibus scelerisque eleifend donec pretium vulputate. Cras ornare arcu dui vivamus arcu felis. Sit amet risus nullam eget. Cum sociis natoque penatibus et. Et ligula ullamcorper malesuada proin libero nunc consequat. Sagittis id consectetur purus ut faucibus pulvinar elementum integer. Maecenas accumsan lacus vel facilisis volutpat est velit egestas. Eget aliquet nibh praesent tristique magna. Dictumst vestibulum rhoncus est pellentesque elit. Massa vitae tortor condimentum lacinia quis vel eros. Vitae congue eu consequat ac. Sapien eget mi proin sed libero enim. Lectus urna duis convallis convallis tellus id interdum velit. Sit amet luctus venenatis lectus magna fringilla urna.
-                Enim sed faucibus turpis in. Enim praesent elementum facilisis leo vel. Viverra ipsum nunc aliquet bibendum. Ultricies tristique nulla aliquet enim. Sed risus pretium quam vulputate dignissim suspendisse in est ante. At quis risus sed vulputate odio. Sit amet risus nullam eget felis eget nunc. Lectus mauris ultrices eros in cursus turpis massa. Augue lacus viverra vitae congue eu. Sit amet porttitor eget dolor morbi non arcu. Urna nec tincidunt praesent semper feugiat nibh sed pulvinar. Enim nulla aliquet porttitor lacus luctus accumsan tortor posuere ac. Mauris pharetra et ultrices neque ornare aenean. Vitae elementum curabitur vitae nunc sed velit dignissim.
-            </p>
+        <div id="bodyContent">
+            <div class="contactMe">    
+                <h5>Interested in working together? Please feel free to reach out to me directly through any of the following methods:</h3>
+                <div class="contactButtons">
+                    <a href="https://www.linkedin.com/in/m4ttholmes/" target="_blank"><i class="fab fa-linkedin fa-3x"></i></a>
+                    <a href="https://github.com/M4ttHolmes" target="_blank"><i class="fab fa-github fa-3x"></i></a>
+                    <a href="mailto:m4ttholmes@gmail.com" target="_blank"><i class="fas fa-envelope fa-3x"></i></a>
+                </div>
+                <h5>Or drop me a message in the form below!</h5>
+                <form id="contactForm" action="https://formspree.io/f/xeqvdonz" method="POST">
+                    <div class="formInput">
+                        <input class="contactInput" type="text" name="Name" placeholder="Your Name">
+                        <input class="contactInput" type="number" name="Phone" placeholder="Phone">
+                        <input class="contactInput" type="email" name="_replyto" placeholder="Email">
+                    </div>
+                    <textarea class="contactInput" name="message" placeholder="Message"></textarea>
+                    <button class="contactInput" type="submit">Send</button>
+                </form>
+            </div>
         </div>
     </div>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
