@@ -4,7 +4,7 @@
         font-size: 1.5em !important;
     }
 
-    div h3, p {
+    div h3 {
         letter-spacing: 0 !important;
         font-size: .75em !important;
     }
@@ -12,7 +12,21 @@
     .contactButtons{
         width: 90% !important;
     }
+
+    .proj-card {
+        height: 350px !important;
+    }
     
+}
+
+a {
+    color: #8F877D;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #8F877D;
+    text-decoration: none;
 }
 
 a:active {
@@ -214,5 +228,40 @@ form textarea {
 }
 
 form button {
+    height: 40px;
+    color: #F6F2E2;
+    background-color: #45766C;
+    border: none;
+    border-radius: 6px;
     width: 20%;
+}
+
+button:hover {
+    background-color: #DB9A55;
+    color: #1F3131;
+    box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.proj-card {
+    height: 300px;
+}
+
+
+.proj-card img {
+    height: 160px;
+}
+
+.col a {
+    margin-bottom: 20px;
+}
+
+.col a:hover {
+    transform: scale(1.1);
 }
