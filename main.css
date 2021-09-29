@@ -120,7 +120,7 @@ i {
     height: 150px;
     border: 1px solid #F6F2E2;
     border-radius: 50%;
-    margin: 20px;
+    margin-bottom: 20px;
     background: url("./assets/pro_headshot.jpg") no-repeat;
     background-position-y: -30px;
     background-size: 150px, 150px;
