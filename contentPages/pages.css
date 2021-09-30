@@ -180,7 +180,7 @@ h5 a:hover {
     color: #1F3131;
 }
 
-.skill-card-body:hover .fab, .skill-card-body:hover .fas, h1 .fab:hover, h1 .fas:hover, .contactButtons i:hover, .fas:hover{
+.skill-card-body:hover .fab, .skill-card-body:hover .fas, h1 .fab:hover, h1 .fas:hover, .contactButtons i:hover{
     color: #DB9A55;
 }
 
