@@ -100,14 +100,14 @@ hr {
 }
 
 #imageTitle {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 65px;
     letter-spacing: 15px;
     margin-bottom: 30px;
 }
 
 #imageSubTitle {
-    font-weight: 100;
+    font-weight: 200;
     font-size: 25px;
 }
 
@@ -142,6 +142,7 @@ hr {
 }
 
 .card-right {
+    text-align: left;
     padding-left: 20px;
 }
 
