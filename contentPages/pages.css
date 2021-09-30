@@ -202,7 +202,9 @@ h5 a:hover {
     align-items: center;
 }
 
+
 form input {
+    width: 230px;
     margin: 10px;
 }
 
