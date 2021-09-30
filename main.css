@@ -32,7 +32,7 @@ iframe {
 }
 
 .nav a:hover {
-    background-color: #DB9A55 !important;
+    background-color: #DB9A55;
     color: #1F3131;
     box-shadow: 3px 3px 1px 1px rgba(0, 0, 0, 0.2);
 }
@@ -105,7 +105,7 @@ i {
 }
 
 #myName {
-    color: #F6F2E2;
+    color: #c4c1b7;
     font-size: 24px;
     font-weight: 400;
 }

@@ -36,7 +36,7 @@ a:active {
 body {
     height: 100vh;
     color: #F6F2E2;
-    background-color: #F6F2E2;
+    background-color: #F6F2E2 !important;
     font-family: 'Poppins', sans-serif;
     font-weight: 100;
     font-size: 24px;
@@ -166,7 +166,7 @@ hr {
     border-radius: 12%;
 }
 
-.fab, .fas, h5 a {
+h1 .fab, h1 .fas, h5 a, .contactButtons i {
     color: #1F3131;
 }
 
@@ -180,7 +180,7 @@ h5 a:hover {
     color: #1F3131;
 }
 
-.skill-card-body:hover .fab, .skill-card-body:hover .fas, .fab:hover, .fas:hover{
+.skill-card-body:hover .fab, .skill-card-body:hover .fas, h1 .fab:hover, h1 .fas:hover, .contactButtons i:hover, .fas:hover{
     color: #DB9A55;
 }
 
